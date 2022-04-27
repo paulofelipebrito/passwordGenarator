@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.password-container {
+  background-color: rgb(46, 12, 80);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  min-width: 400px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.password-header {
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.password {
+  background-color: rgb(69, 28, 109);
   display: flex;
-  flex-direction: column;
+  font-size: 1.5rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 70px;
+  width: 100%;
+  position: relative;
+  padding: 1rem;
+  overflow: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.password button {
+  background-color: white;
+  border: none;
+  color: rgb(29, 2, 56);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 0.25rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(0, 20%);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.password:hover button {
+  opacity: 1;
+  transform: translate(0, 0%);
+}
+
+.password-body {
+  padding: 0 1rem 1rem;
+}
+
+.form-control {
+  color: #eee;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+
+.generate {
+  background-color: #ecb602;
+  border: none;
+  color: rebeccapurple;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 100%;
 }
