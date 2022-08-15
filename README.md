@@ -24,7 +24,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
+    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -33,7 +33,7 @@
 </details>
 
 <h1 align="center">
-    Github Profiles
+    Password Genarator
 </h1>
 
 <!-- ABOUT THE PROJECT -->
@@ -42,21 +42,20 @@
 <div align="center">
 
 <p style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="github" title="#github" src="./src/assets/demo.gif" > 
+  <img alt="passwordgenerator" title="#passwordgenerator" src="./src/assets/demo.gif" > 
 
 </p>
 </div>
 
-Welcome to the _GitHub repository_ of my **Github Profiles** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
+Welcome to the _GitHub repository_ of my **Password Genarator** project! Here you can find information about the project's development, such as which technologies were used, how to install and run the project, usage and more.
 
-This site provides a form to search GitHub Profiles. Users will find the following feature: **Search for github profiles and see the repositories**. 
+This site provides a form a Password Genarator. Users will find the following feature: **Generate a random password with selected conditions**. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 * [![React][React.js]][React-url]
-* [![Typescript][Typescript]][Typescript-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +75,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/paulofelipebrito/task-manager
+   git clone https://github.com/paulofelipebrito/passwordGenarator
    ```
 2. Install NPM packages
    ```sh
@@ -91,18 +90,16 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ROADMAP
+<!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Password Length
+- [x] Contain Uppercase Letters
+- [x] Contain Lowercase Letters
+- [x] Contain Numbers
+- [x] Contain Symbols
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 
 
@@ -138,15 +135,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Paulo Felipe Brito - [LinkedIn](https://www.linkedin.com/in/paulofelipebrito/) - paulofelipebrito@hotmail.com
 
-Project Link: [https://github.com/paulofelipebrito/task-manager](https://github.com/paulofelipebrito/task-manager)
+Project Link: [https://github.com/paulofelipebrito/passwordGenarator](https://github.com/paulofelipebrito/passwordGenarator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Acknowledgments
 
 This project was developed with the following technologies:
-
-- ✔️ Typescript
 
 - ✔️ ReactJS
   
@@ -172,16 +167,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/paulofelipebrito/task-manager.svg?style=for-the-badge
-[contributors-url]: https://github.com/paulofelipebrito/task-manager/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/paulofelipebrito/task-manager.svg?style=for-the-badge
-[forks-url]: https://github.com/paulofelipebrito/task-manager/network/members
-[stars-shield]: https://img.shields.io/github/stars/paulofelipebrito/task-manager.svg?style=for-the-badge
-[stars-url]: https://github.com/paulofelipebrito/task-manager/stargazers
-[issues-shield]: https://img.shields.io/github/issues/paulofelipebrito/task-manager.svg?style=for-the-badge
-[issues-url]: https://github.com/paulofelipebrito/task-manager/issues
-[license-shield]: https://img.shields.io/github/license/paulofelipebrito/task-manager.svg?style=for-the-badge
-[license-url]: https://github.com/paulofelipebrito/task-manager/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/paulofelipebrito/passwordGenarator.svg?style=for-the-badge
+[contributors-url]: https://github.com/paulofelipebrito/passwordGenarator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/paulofelipebrito/passwordGenarator.svg?style=for-the-badge
+[forks-url]: https://github.com/paulofelipebrito/passwordGenarator/network/members
+[stars-shield]: https://img.shields.io/github/stars/paulofelipebrito/passwordGenarator.svg?style=for-the-badge
+[stars-url]: https://github.com/paulofelipebrito/passwordGenarator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/paulofelipebrito/passwordGenarator.svg?style=for-the-badge
+[issues-url]: https://github.com/paulofelipebrito/passwordGenarator/issues
+[license-shield]: https://img.shields.io/github/license/paulofelipebrito/passwordGenarator.svg?style=for-the-badge
+[license-url]: https://github.com/paulofelipebrito/passwordGenarator/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paulofelipebrito/
 [product-screenshot]: images/screenshot.png
